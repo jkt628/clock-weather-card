@@ -229,14 +229,21 @@ export class ClockWeatherCard extends LitElement {
       <clock-weather-card-today-left>
         <img class="grow-img" src=${icon} />
       </clock-weather-card-today-left>
-      <clock-weather-card-today-right>
-        <clock-weather-card-today-right-wrap>
-          <clock-weather-card-today-right-wrap-top>
-            ${this.config.hide_clock ? weatherString : localizedTemp ? `${weatherString}, ${localizedTemp}` : weatherString}
+      <clock-weather-card-today-center>
+        <clock-weather-card-today-center-wrap>
+          <clock-weather-card-today-center-wrap-center>
+            ${localizedTemp}
+          </clock-weather-card-today-center-wrap-center>
+          <clock-weather-card-today-center-wrap-bottom>
+            ${weatherString}
             ${this.config.show_humidity && localizedHumidity ? html`<br>${localizedHumidity}` : ''}
             ${this.config.apparent_sensor && apparentTemp ? html`<br>${apparentString}: ${localizedApparent}` : ''}
             ${this.config.aqi_sensor && aqi !== null ? html`<br><aqi style="background-color: ${aqiBackgroundColor}; color: ${aqiTextColor};">${aqi} ${aqiString}</aqi>` : ''}
-          </clock-weather-card-today-right-wrap-top>
+          </clock-weather-card-today-center-wrap-bottom>
+        </clock-weather-card-today-center-wrap>
+      </clock-weather-card-today-center>
+      <clock-weather-card-today-right>
+        <clock-weather-card-today-right-wrap>
           <clock-weather-card-today-right-wrap-center>
             ${this.config.hide_clock ? localizedTemp ?? 'n/a' : this.time()}
           </clock-weather-card-today-right-wrap-center>
