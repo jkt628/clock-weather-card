@@ -5,7 +5,8 @@ name: Release please
 on:
   push:
     branches:
-      - master
+      - main
+  workflow_dispatch: # enable "Run workflow"
 
 permissions:
   contents: write
