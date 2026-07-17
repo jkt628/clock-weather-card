@@ -1,5 +1,56 @@
 # Changelog
 
+## [2.10.0](https://github.com/jkt628/clock-weather-card/compare/v2.9.4...v2.10.0) (2026-07-17)
+
+
+### Features
+
+* Add ability to show a badge with the air quality index ([#396](https://github.com/jkt628/clock-weather-card/issues/396)) ([672bb59](https://github.com/jkt628/clock-weather-card/commit/672bb59858f00ca47a535e308e12ba4d40e6dc72))
+* Update AQI background colors to match airnow.gov ([#589](https://github.com/jkt628/clock-weather-card/issues/589)) ([18c8034](https://github.com/jkt628/clock-weather-card/commit/18c8034611cba880a3492949c17407e957508700))
+* use svg for static icons ([#366](https://github.com/jkt628/clock-weather-card/issues/366)) ([7699642](https://github.com/jkt628/clock-weather-card/commit/76996428b09800e6f60a6b7b3f48559e806ae3fb))
+
+
+### Bug Fixes
+
+* Add additional translations for Hungarian ([#544](https://github.com/jkt628/clock-weather-card/issues/544)) ([a942e57](https://github.com/jkt628/clock-weather-card/commit/a942e57d503550f9c80508819baebb4ed403e384))
+* Add Arabic support based on [#517](https://github.com/jkt628/clock-weather-card/issues/517) ([#518](https://github.com/jkt628/clock-weather-card/issues/518)) ([da03c6e](https://github.com/jkt628/clock-weather-card/commit/da03c6ebba9a600c28d943285545ed21dbbaa12b))
+* Add Croatian language ([#543](https://github.com/jkt628/clock-weather-card/issues/543)) ([7b9fcd0](https://github.com/jkt628/clock-weather-card/commit/7b9fcd096a1c9e6573c2943b404b93268d6ebed7))
+* Add feels-like translation for Slovenian ([#525](https://github.com/jkt628/clock-weather-card/issues/525)) ([7a3da16](https://github.com/jkt628/clock-weather-card/commit/7a3da16dccc22836585fc935039c842d64bc54c6))
+* Add Japanese translation ([#706](https://github.com/jkt628/clock-weather-card/issues/706)) ([023f4bd](https://github.com/jkt628/clock-weather-card/commit/023f4bd2a9a3f3bc16001d28dfb0111c23f97862))
+* Add Korean translations for "AQI" and "feel like" ([#417](https://github.com/jkt628/clock-weather-card/issues/417)) ([50fd243](https://github.com/jkt628/clock-weather-card/commit/50fd24387bde29499a406612b3d0bb9f1bbe6c12))
+* Add Luxembourgish language ([#453](https://github.com/jkt628/clock-weather-card/issues/453)) ([ec776b9](https://github.com/jkt628/clock-weather-card/commit/ec776b97bda116ef5f390d93cacafcd4f0f10e89))
+* Add more "feels like" translations ([#497](https://github.com/jkt628/clock-weather-card/issues/497)) ([67205d4](https://github.com/jkt628/clock-weather-card/commit/67205d41a7f7acfbcf336161715efdbe44c9699c))
+* Added Welsh Language (Cymraeg) Localisation ([#512](https://github.com/jkt628/clock-weather-card/issues/512)) ([292ed42](https://github.com/jkt628/clock-weather-card/commit/292ed4283a419470f10fe8891e26d7cd98352f0b))
+* **deps:** update dependency custom-card-helpers to v2 ([#663](https://github.com/jkt628/clock-weather-card/issues/663)) ([de52a84](https://github.com/jkt628/clock-weather-card/commit/de52a847d8d170a676103f7c82838c7543b2fd5e))
+* **deps:** update dependency home-assistant-js-websocket to v9 ([1858502](https://github.com/jkt628/clock-weather-card/commit/1858502e0a2538f980bfde84491dd873f22ce2e5))
+* **deps:** update dependency home-assistant-js-websocket to v9.2.0 ([#349](https://github.com/jkt628/clock-weather-card/issues/349)) ([7daf6a2](https://github.com/jkt628/clock-weather-card/commit/7daf6a297c5dfb37f533709d1ed25628d96aeee3))
+* **deps:** update minor-dependencies ([e30f839](https://github.com/jkt628/clock-weather-card/commit/e30f839c4e1fc3fe88063036a77797694c047bf0))
+* **deps:** update minor-dependencies ([0604802](https://github.com/jkt628/clock-weather-card/commit/0604802217014fb6ddd261fb58844b0c2c33ee21))
+* **deps:** update minor-dependencies ([#431](https://github.com/jkt628/clock-weather-card/issues/431)) ([db7eb72](https://github.com/jkt628/clock-weather-card/commit/db7eb72c21902be234ed4149788465a7e48c1ee5))
+* **deps:** update minor-dependencies ([#545](https://github.com/jkt628/clock-weather-card/issues/545)) ([b6623ef](https://github.com/jkt628/clock-weather-card/commit/b6623efa5f10af90bb704dedd44ac7239354d5f2))
+* **deps:** update minor-dependencies ([#549](https://github.com/jkt628/clock-weather-card/issues/549)) ([3c2d61f](https://github.com/jkt628/clock-weather-card/commit/3c2d61f497df62407c02f61894c02d92bd8ee94a))
+* **deps:** update minor-dependencies ([#579](https://github.com/jkt628/clock-weather-card/issues/579)) ([9c0beef](https://github.com/jkt628/clock-weather-card/commit/9c0beef8c7dabfd68078b25f5d2d1b83c9ee5302))
+* **deps:** update minor-dependencies ([#612](https://github.com/jkt628/clock-weather-card/issues/612)) ([3a90a56](https://github.com/jkt628/clock-weather-card/commit/3a90a568cd8cdbea3101a1ec35c39c99d7efaf56))
+* extractMostOcurring was always returning the first element ([917c2dc](https://github.com/jkt628/clock-weather-card/commit/917c2dc4d0c1c6ca1af9eb5898fab8551a6d7717))
+* Fix custom element define error ([#472](https://github.com/jkt628/clock-weather-card/issues/472)) ([722fb76](https://github.com/jkt628/clock-weather-card/commit/722fb763b56282f7b3dbfb5ab55c332c404a3390))
+* fix temperature bar gradient banding ([#605](https://github.com/jkt628/clock-weather-card/issues/605)) ([0417491](https://github.com/jkt628/clock-weather-card/commit/04174911ae08e87e0b61604a386d63241c6a0bb8))
+* Hourly forecast dot sometimes not rendering ([#668](https://github.com/jkt628/clock-weather-card/issues/668)) ([e53730d](https://github.com/jkt628/clock-weather-card/commit/e53730d805e8cdfa218f020af031ca547805e347))
+* Improve AQI Text Readability on Light Backgrounds ([#602](https://github.com/jkt628/clock-weather-card/issues/602)) ([7ec081f](https://github.com/jkt628/clock-weather-card/commit/7ec081f1c21f9dd76e71574494233c559bbb5a71))
+* Localize "feels like" for Estonian ([#500](https://github.com/jkt628/clock-weather-card/issues/500)) ([47ee2e1](https://github.com/jkt628/clock-weather-card/commit/47ee2e15218dca9531cabb64914791c2189f71c2))
+* missing diacritics in romanian translation ([#597](https://github.com/jkt628/clock-weather-card/issues/597)) ([320a376](https://github.com/jkt628/clock-weather-card/commit/320a3760f0f37a4142905807e0c6574d8733725a))
+* Translate "Feels like" into Russian ([#464](https://github.com/jkt628/clock-weather-card/issues/464)) ([b85379f](https://github.com/jkt628/clock-weather-card/commit/b85379fdf5a341a4ad802ee36061b086ce385607))
+* Translate feels-like in french ([#444](https://github.com/jkt628/clock-weather-card/issues/444)) ([3af024f](https://github.com/jkt628/clock-weather-card/commit/3af024f6bfb5fefa6a053066f81278e5c83b1d25))
+* Update "Feels like" for ca, es, and pt ([#450](https://github.com/jkt628/clock-weather-card/issues/450)) ([6cb9f66](https://github.com/jkt628/clock-weather-card/commit/6cb9f66938c172ff767180eb603e26f35a86dbf1))
+* Update "Feels like" for cn ([#568](https://github.com/jkt628/clock-weather-card/issues/568)) ([da1b5e0](https://github.com/jkt628/clock-weather-card/commit/da1b5e07787096f40117c45588c008ac579275f6))
+* Update "feels-like" translation in it.json ([#414](https://github.com/jkt628/clock-weather-card/issues/414)) ([1c20972](https://github.com/jkt628/clock-weather-card/commit/1c209725ba187d5ba2aedc0ffb3ac9b5e0c7f920))
+* Update Danish translations for weather terms ([#675](https://github.com/jkt628/clock-weather-card/issues/675)) ([b21353a](https://github.com/jkt628/clock-weather-card/commit/b21353a42a4a38aa208385ced757b16b64379f04))
+* Update German translations ([#644](https://github.com/jkt628/clock-weather-card/issues/644)) ([59a4977](https://github.com/jkt628/clock-weather-card/commit/59a49775248b1a768ecede80f97af6a3abc4b957))
+* update Hebrew localize text "feels like" ([#495](https://github.com/jkt628/clock-weather-card/issues/495)) ([4dc64f1](https://github.com/jkt628/clock-weather-card/commit/4dc64f1c1ea30d0b484df8507aa78a74634b795d))
+* Update indonesian translations ([#421](https://github.com/jkt628/clock-weather-card/issues/421)) ([65865a0](https://github.com/jkt628/clock-weather-card/commit/65865a03576517f7f615f0e61639b3eb9c216d38))
+* Update Luxembourgish translations ([#473](https://github.com/jkt628/clock-weather-card/issues/473)) ([ec584de](https://github.com/jkt628/clock-weather-card/commit/ec584decf5a78300e1652036d494513f2279c49c))
+* Update Taiwanese translations ([#425](https://github.com/jkt628/clock-weather-card/issues/425)) ([fd636b4](https://github.com/jkt628/clock-weather-card/commit/fd636b4afd4ecc3d92af1f7e6a494f41ba5e5d8c))
+* Update to Czech translation for exceptional weather state ([#505](https://github.com/jkt628/clock-weather-card/issues/505)) ([c3641fa](https://github.com/jkt628/clock-weather-card/commit/c3641fa30f765e231117dc67f9f1db505de0ad0e))
+
 ## [2.9.4](https://github.com/pkissling/clock-weather-card/compare/v2.9.3...v2.9.4) (2026-07-15)
 
 
